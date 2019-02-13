@@ -13,6 +13,8 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
+
+//can we make the name eq:"gatsby-astronaut.png" dynamic in this case so that we can query for different images
 const Image = () => (
   <StaticQuery
     query={graphql`
